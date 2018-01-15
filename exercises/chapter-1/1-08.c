@@ -29,7 +29,8 @@ main()
 
         if (c == '\n')
             ++newline;
-}
+    }
+    
     /* Print output after CTRL+D is pressed */
     printf("\nBlank count: %d\n", blank);
     printf("Tab count: %d\n", tab);
