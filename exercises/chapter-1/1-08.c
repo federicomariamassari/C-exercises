@@ -1,5 +1,5 @@
 /*
- * Filename   1-08.c
+ * Filename   1-08.c -- Compile with gcc -ansi 1.08.c and run with ./a.out
  * Author     Federico Maria Massari <federico.massari@bocconialumni.it>
  * Book       "The C Programming Language, 2nd Ed.", by Kernighan, B.W.
  *             and Ritchie, D.M.
@@ -12,28 +12,28 @@
 
 main()
 {
-    int blank, tab, newline;
+    int blanks, tabs, newlines;
     int c;    /* int, as opposed to char, is big enough to hold EOF */
 
-    blank = 0;    /* Initialise variables */
-    tab = 0;
-    newline = 0;
+    blanks = 0;    /* Initialise variables */
+    tabs = 0;
+    newlines = 0;
 
     /* Increment variable if input != EOF and an equality is met;
      * equality with EOF is reached when CTRL+D is pressed. */
     while ((c = getchar()) != EOF) {
         if (c == ' ')
-            ++blank;
+            ++blanks;
 
         if (c == '\t')
-            ++tab;
+            ++tabs;
 
         if (c == '\n')
-            ++newline;
+            ++newlines;
     }
 
     /* Print output after CTRL+D is pressed */
-    printf("\nBlank count: %d\n", blank);
-    printf("Tab count: %d\n", tab);
-    printf("Newline count: %d\n", newline);
+    printf("\nBlank count: %d\n", blanks);
+    printf("Tab count: %d\n", tabs);
+    printf("Newline count: %d\n", newlines);
 }
