@@ -51,6 +51,17 @@ hello, world
     </tr>
     <tr>
         <td align="center">
+        <b><a href="https://github.com/federicomariamassari/C-exercises/blob/master/exercises/chapter-1/1-01.c">1-01</a href></b>
+        </td>
+        <td>
+        Run the "hello, world" program on your system.
+        </td>
+    </tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td align="center">
         <b><a href="https://github.com/federicomariamassari/C-exercises/blob/master/exercises/chapter-1/1-08.c">1-08</a href></b>
         </td>
         <td>
