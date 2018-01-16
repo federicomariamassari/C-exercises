@@ -1,5 +1,5 @@
 /*
- * Filename   1-08.c -- Compile with gcc -ansi 1.08.c and run with ./a.out
+ * Filename   1-08.c
  * Author     Federico Maria Massari <federico.massari@bocconialumni.it>
  * Book       "The C Programming Language, 2nd Ed.", by Kernighan, B.W.
  *             and Ritchie, D.M.
