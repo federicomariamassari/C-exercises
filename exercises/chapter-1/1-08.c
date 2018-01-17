@@ -24,10 +24,8 @@ main()
     while ((c = getchar()) != EOF) {
         if (c == ' ')
             ++blanks;
-
         if (c == '\t')
             ++tabs;
-
         if (c == '\n')
             ++newlines;
     }
