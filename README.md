@@ -7,7 +7,7 @@ This repository, a hobby, contains my solutions to the exercises of the classic 
 Hopefully, I will also pick up Assembly and Java one day.
 
 ## How to run the code
-On Terminal (UNIX), compile the desired exercise with:
+On Terminal (UNIX), compile the desired exercise with the GNU compiler:
 ```
 $ gcc -ansi <filename>.c
 ```
